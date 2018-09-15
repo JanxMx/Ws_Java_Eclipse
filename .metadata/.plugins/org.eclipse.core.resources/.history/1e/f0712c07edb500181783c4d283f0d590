@@ -1,0 +1,33 @@
+-------------- Hibernate Annotation ----------
+
+NOTE: this code create the tables dinamically
+
+1- Run the Test class you will see following output in console.
+
+	Hibernate: 
+    	insert 
+    	into
+        	STUDENT
+        	(degree, name, phone, roll, id) 
+    	values
+        	(?, ?, ?, ?, ?)
+	Hibernate: 
+    	insert 
+    	into
+        	STUDENT
+        	(degree, name, phone, roll, id) 
+    	values
+    	    (?, ?, ?, ?, ?)
+	successfully saved
+	
+---------------- Test Project ------------------
+
+1- Run the Test class
+
+2- Validate in MySQL Workbench the next queries:  
+
+use janx;
+
+select *
+from empcrud;
+	

@@ -1,0 +1,6 @@
+-------- ThreadsSemaphoresReaderWriter2 ---------
+1- Run as - Run Configurations...
+2- Arguments tab - set values in Program Arguments
+
+Example:	
+2 5 

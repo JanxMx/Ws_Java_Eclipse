@@ -1,0 +1,4 @@
+-------- Execute JAXWS-RCP ---------
+http://localhost:7778/ws/hello?wsdl
+
+NOTA: Es importante correr primero el servicio JAXWS-RCP

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Hibernate-Local-hibernate-DTD&apos;" deleteContents="true" description="Delete resource &apos;Hibernate-Local-hibernate-DTD&apos;" element1="/Hibernate-Local-hibernate-DTD" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1536702731162"/>
+</session>

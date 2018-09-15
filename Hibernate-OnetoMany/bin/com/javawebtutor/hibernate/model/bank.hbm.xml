@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.javawebtutor.hibernate.model">
+
+	<class name="Bank" table="BANK">
+
+		<id name="bankId" type="java.lang.Long" column="department_id">
+			<generator class="native" />
+		</id>
+
+		<property name="bankName" column="bank_name" />
+
+		<set name="customers" table="CUSTOMER" inverse="true" lazy="true"
+			fetch="select">
+			<key>
+				<column name="bank_id" not-null="true" />
+			</key>
+			<one-to-many class="com.javawebtutor.hibernate.model.Customer" />
+		</set>
+
+	</class>
+</hibernate-mapping>

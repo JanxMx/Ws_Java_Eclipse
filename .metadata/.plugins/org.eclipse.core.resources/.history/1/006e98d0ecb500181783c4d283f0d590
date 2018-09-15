@@ -1,0 +1,22 @@
+-------------- IMPORTANT -------------
+Connection to Internet is required!!!
+
+--------------- Hibernate CRUD -----------------
+
+/* create database jwt; */
+use janx;
+
+CREATE TABLE `empcrud` (
+  `ID` int(11) NOT NULL,
+  `NAME` varchar(255) NOT NULL,
+  `SAL` int(11) NOT NULL,
+  `CITY` varchar(255) NOT NULL,
+  `PHONE` int(11) NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+---------------- Test Project ------------------
+
+1- Run the Test class
+
+If data is inserted into DB you can see inserted/updated/deleted data in mysql console as shown below.

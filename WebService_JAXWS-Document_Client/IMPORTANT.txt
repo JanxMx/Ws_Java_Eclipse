@@ -1,0 +1,9 @@
+-------- Execute JAXWS-RCP ---------
+http://localhost:7778/ws/hello?wsdl
+
+NOTA: Es importante correr primero el servicio JAXWS-Document
+
+--------------- NOTE --------------- 
+Creating JAX-WS example is a easy task because it requires no extra configuration settings.
+
+JAX-WS API is inbuilt in JDK, so you don't need to load any extra jar file for it. Let's see a simple example of JAX-WS example in RPC style.

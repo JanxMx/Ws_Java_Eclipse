@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/JavaTricky/src/com/jnx/tricky/StreamCounterDistinct.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.jnx.tricky.StreamCounterDistinct"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="JavaTricky"/>
+</launchConfiguration>

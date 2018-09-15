@@ -1,0 +1,4 @@
+Creator:		Jesus Alejandro Valdez Dominguez
+Date:			2018-09-15 
+Description:	Exercises to update and improve Java knowledges 
+IDE version:	Eclipse Oxygen

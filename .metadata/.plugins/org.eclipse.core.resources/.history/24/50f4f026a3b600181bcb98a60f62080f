@@ -1,0 +1,27 @@
+--------------- Hibernate CRUD -----------------
+IMPORTANT!!!!!!!!!!!!
+Is required the connection to Internet. 
+
+--------------- Hibernate CRUD -----------------
+
+/* create database jwt; */
+use janx;
+
+CREATE TABLE `empcrud` (
+  `ID` int(11) NOT NULL,
+  `NAME` varchar(255) NOT NULL,
+  `SAL` int(11) NOT NULL,
+  `CITY` varchar(255) NOT NULL,
+  `PHONE` int(11) NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+---------------- Test Project ------------------
+
+1- Run the Main class
+2- Validate in MySQL Workbench the next queries:  
+
+use janx;
+
+select *
+from empcrud;
